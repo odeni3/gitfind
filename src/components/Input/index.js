@@ -3,7 +3,7 @@ import "./styles.css"
 const Input = ({ value, onChange }) => {
     return (
         <input
-            placeholder="@user"
+            placeholder="github user"
             value={value}
             onChange={(event) => onChange(event.target.value)}
         />

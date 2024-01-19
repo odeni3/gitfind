@@ -3,21 +3,22 @@
 }
 
 .item-list strong{
-    color: #539BF5;
-    font-size: 24px;
-    margin: 24px 0;
+    color: #00fff2;
+    font-size: 1.6rem;
 }
 
 .item-list p{
     color: #999999;
-    font-size: 12px;
-    margin: 24px 0;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    margin-bottom: 0.5rem;
 }
 
 .repositorio{
-    font-size: 32px;
-    color: #FFFFFF;
-    margin: 12px 0;
+    font-size: 2rem;
+    color: #999999;
+    margin: 1rem 0;
     text-align: center;
-    
+    text-decoration: underline;
+
 }
