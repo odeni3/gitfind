@@ -4,6 +4,7 @@ button{
     border-radius: 2rem;
     border: 0.15rem solid #999999;
     background: #2D333B;
+    cursor: pointer;
 }
 
 h2{
@@ -14,4 +15,12 @@ h2{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+button:hover {
+    background: #ffffff27;
+}
+
+button:focus {
+    border-color: #FFF; 
 }

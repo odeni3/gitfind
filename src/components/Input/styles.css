@@ -6,6 +6,7 @@ input{
     padding:0.5rem;
     border-radius: 2rem;
     border: 0.15rem solid #999999;
+    cursor: pointer;
 
 }
 input::placeholder{

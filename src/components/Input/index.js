@@ -1,10 +1,13 @@
 import "./styles.css"
 
-const Input = () => {
-    return(
-        <input placeholder="@user">
-        </input>
-    )
-}
+const Input = ({ value, onChange }) => {
+    return (
+        <input
+            placeholder="@user"
+            value={value}
+            onChange={(event) => onChange(event.target.value)}
+        />
+    );
+};
 
-export { Input }
+export { Input };
