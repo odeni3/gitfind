@@ -1,0 +1,37 @@
+input{
+    width: 80%;
+    margin-right: 2rem;
+    background: transparent;
+    font-size: 1.2rem;
+    padding:0.5rem;
+    border-radius: 2rem;
+    border: 0.15rem solid #999999;
+
+}
+input::placeholder{
+    color: #999999;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input:focus{
+    color: #999999;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+input:not(:focus){
+    color: #999999;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
